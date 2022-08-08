@@ -1,6 +1,8 @@
 body {
   text-align: center;
-  background: linear-gradient(to bottom, #6ab7f5, #fff);
+  background-image: url(../img/fundo-site.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
 }
 
@@ -22,6 +24,7 @@ main {
   left: 50%;
   transform: translate(-63%, 20%);
   height: 20%;
+  max-width: 60%;
 }
 
 .pokemon-data {
